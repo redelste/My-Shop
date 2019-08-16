@@ -41,7 +41,7 @@ namespace MyShop.DataAccess.SQL
 
         public T Find(string Id)
         {
-            return dbSet.Find();
+            return dbSet.Find(Id);
             
         }
 
